@@ -2,13 +2,12 @@ package methods
 
 const (
 	GET     = "GET"
+	HEAD    = "HEAD"
 	POST    = "POST"
 	PUT     = "PUT"
 	DELETE  = "DELETE"
+	CONNECT = "CONNECT"
 	OPTIONS = "OPTIONS"
-	HEAD    = "HEAD"
-	PATH    = "PATH"
 	TRACE   = "TRACE"
-	LINK    = "LINK"
-	UNLINK  = "UNLINK"
+	PATCH   = "PATCH"
 )
