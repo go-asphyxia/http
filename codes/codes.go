@@ -1,13 +1,11 @@
 package codes
 
 const (
-	//Information
 	Continue          = 100
 	SwitchingProtocol = 101
 	Processing        = 102
 	EarlyHints        = 103
 
-	//Successful
 	OK                          = 200
 	Created                     = 201
 	Accepted                    = 202
@@ -16,7 +14,6 @@ const (
 	ResetContent                = 205
 	PartialContent              = 206
 
-	//Massages about redirect
 	MultipleChoice    = 300
 	MovedPermanently  = 301
 	Found             = 302
@@ -27,7 +24,6 @@ const (
 	TemporaryRedirect = 307
 	PermanentRedirect = 308
 
-	//Client
 	BadRequest                   = 400
 	Unauthorized                 = 401
 	PaymentRequired              = 402
@@ -47,7 +43,6 @@ const (
 	RequestedRangeNotSatisfiable = 416
 	ExpectationFailed            = 417
 
-	//Server
 	InternalServerError     = 500
 	NotImplemented          = 501
 	BadGateway              = 502
