@@ -43,6 +43,14 @@ const (
 	SecWebsocketProtocol   = "Sec-Websocket-Protocol"
 	SecWebsocketVersion    = "Sec-Websocket-Version"
 
+	XContentDuration    = "X-Content-Duration"
+	XContentTypeOptions = "X-Content-Type-Options"
+	XDNSPrefetchControl = "X-DNSPrefetch-Control"
+	XFrameOptions       = "X-Frame-Options"
+
+	ReferrerPolicy    = "Referrer-Policy"
+	PermissionsPolicy = "Permissions-Policy"
+
 	Age                     = "Age"
 	Allow                   = "Allow"
 	Alternates              = "Alternates"
@@ -80,8 +88,4 @@ const (
 	Via                     = "Via"
 	Warning                 = "Warning"
 	WWWAuthenticate         = "WWW-Authenticate"
-	XContentDuration        = "X-Content-Duration"
-	XContentSecurityPolicy  = "X-Content-Security-Policy"
-	XDNSPrefetchControl     = "X-DNSPrefetch-Control"
-	XFrameOptions           = "X-Frame-Options"
 )
