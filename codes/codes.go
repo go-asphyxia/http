@@ -1,52 +1,52 @@
 package codes
 
 const (
-	Continue          = 100
-	SwitchingProtocol = 101
-	Processing        = 102
-	EarlyHints        = 103
+	Continue          int = 100
+	SwitchingProtocol int = 101
+	Processing        int = 102
+	EarlyHints        int = 103
 
-	OK                          = 200
-	Created                     = 201
-	Accepted                    = 202
-	NonAuthoritativeInformation = 203
-	NoContent                   = 204
-	ResetContent                = 205
-	PartialContent              = 206
+	OK                          int = 200
+	Created                     int = 201
+	Accepted                    int = 202
+	NonAuthoritativeInformation int = 203
+	NoContent                   int = 204
+	ResetContent                int = 205
+	PartialContent              int = 206
 
-	MultipleChoice    = 300
-	MovedPermanently  = 301
-	Found             = 302
-	SeeOther          = 303
-	NotModified       = 304
-	UseProxy          = 305
-	SwitchProxy       = 306
-	TemporaryRedirect = 307
-	PermanentRedirect = 308
+	MultipleChoice    int = 300
+	MovedPermanently  int = 301
+	Found             int = 302
+	SeeOther          int = 303
+	NotModified       int = 304
+	UseProxy          int = 305
+	SwitchProxy       int = 306
+	TemporaryRedirect int = 307
+	PermanentRedirect int = 308
 
-	BadRequest                   = 400
-	Unauthorized                 = 401
-	PaymentRequired              = 402
-	Forbidden                    = 403
-	NotFound                     = 404
-	MethodNotAllowed             = 405
-	NotAcceptable                = 406
-	ProxyAuthenticationRequired  = 407
-	RequestTimeout               = 408
-	Conflict                     = 409
-	Gone                         = 410
-	LengthRequired               = 411
-	PreconditionFailed           = 412
-	RequestEntityTooLarge        = 413
-	RequestURITooLong            = 414
-	UnsupportedMediaType         = 415
-	RequestedRangeNotSatisfiable = 416
-	ExpectationFailed            = 417
+	BadRequest                   int = 400
+	Unauthorized                 int = 401
+	PaymentRequired              int = 402
+	Forbidden                    int = 403
+	NotFound                     int = 404
+	MethodNotAllowed             int = 405
+	NotAcceptable                int = 406
+	ProxyAuthenticationRequired  int = 407
+	RequestTimeout               int = 408
+	Conflict                     int = 409
+	Gone                         int = 410
+	LengthRequired               int = 411
+	PreconditionFailed           int = 412
+	RequestEntityTooLarge        int = 413
+	RequestURITooLong            int = 414
+	UnsupportedMediaType         int = 415
+	RequestedRangeNotSatisfiable int = 416
+	ExpectationFailed            int = 417
 
-	InternalServerError     = 500
-	NotImplemented          = 501
-	BadGateway              = 502
-	ServiceUnavailable      = 503
-	GatewayTimeout          = 504
-	HTTPVersionNotSupported = 505
+	InternalServerError     int = 500
+	NotImplemented          int = 501
+	BadGateway              int = 502
+	ServiceUnavailable      int = 503
+	GatewayTimeout          int = 504
+	HTTPVersionNotSupported int = 505
 )

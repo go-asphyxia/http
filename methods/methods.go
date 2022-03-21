@@ -1,13 +1,13 @@
 package methods
 
 const (
-	GET     = "GET"
-	HEAD    = "HEAD"
-	POST    = "POST"
-	PUT     = "PUT"
-	DELETE  = "DELETE"
-	CONNECT = "CONNECT"
-	OPTIONS = "OPTIONS"
-	TRACE   = "TRACE"
-	PATCH   = "PATCH"
+	GET     string = "GET"
+	HEAD    string = "HEAD"
+	POST    string = "POST"
+	PUT     string = "PUT"
+	DELETE  string = "DELETE"
+	CONNECT string = "CONNECT"
+	OPTIONS string = "OPTIONS"
+	TRACE   string = "TRACE"
+	PATCH   string = "PATCH"
 )
