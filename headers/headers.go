@@ -25,6 +25,7 @@ const (
 	ContentSecurityPolicy string = "Content-Security-Policy"
 	ContentType           string = "Content-Type"
 
+	CrossOriginResourcePolicy string = "Cross-Origin-Resource-Policy"
 	CrossOriginOpenerPolicy   string = "Cross-Origin-Opener-Policy"
 	CrossOriginEmbedderPolicy string = "Cross-Origin-Embedder-Policy"
 
